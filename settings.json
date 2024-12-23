@@ -111,6 +111,9 @@
       "after": ["<C-w>", "l"]
     },
     {
+      "before": ["U"],
+      "after": ["<C-r>"]},
+    {
       "before": ["<Leader>", "t", "t"],
       "commands": [":tabnew"]
     },
