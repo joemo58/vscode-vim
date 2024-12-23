@@ -1,0 +1,162 @@
+{
+  "update.mode": "none",
+  "telemetry.telemetryLevel": "off",
+  "files.autoSave": "afterDelay",
+  "editor.minimap.enabled": false,
+  "vim.smartRelativeLine": true,
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#BF616A",
+    "statusBar.noFolderBackground": "#BF616A",
+    "statusBar.debuggingBackground": "#BF616A",
+    "statusBar.foreground": "#000",
+    "statusBar.debuggingForeground": "#000"
+  },
+  "vim.neovimPath": "/opt/homebrew/bin/nvim",
+  "vim.enableNeovim": true,
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.sneak": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["£"],
+      "after": ["#"]
+    }
+  ],
+  "vim.leader": "space",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  },
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["J"],
+      "after": ["5", "j"]
+    },
+    {
+      "before": ["K"],
+      "after": ["5", "k"]
+    },
+    {
+      "before": ["<leader>", "w"],
+      "commands": ["workbench.action.files.save"]
+    },
+    {
+      "before": ["<leader>", "b"],
+      "commands": ["workbench.action.files.openFile"]
+    },
+    {
+      "before": ["<leader>", "q"],
+      "commands": ["workbench.action.quit"]
+    },
+    {
+      "before": ["<leader>", "p"],
+      "commands": ["workbench.action.showCommands"]
+    },
+    {
+      "before": ["<leader>", "s"],
+      "commands": ["workbench.action.files.saveAs"]
+    },
+    {
+      "before": ["<leader>", "c"],
+      "commands": ["workbench.action.files.copyPathOfActiveFile"]
+    },
+    {
+      "before": ["<leader>", "v"],
+      "commands": ["workbench.action.files.pastePath"]
+    },
+    {
+      "before": ["<leader>", "h"],
+      "commands": ["workbench.action.navigateBack"]
+    },
+    {
+      "before": ["<leader>", "l"],
+      "commands": ["workbench.action.navigateForward"]
+    },
+    {
+      "before": ["<leader>", "f"],
+      "commands": ["workbench.action.findInFiles"]
+    },
+    {
+      "before": ["<leader>", "a"],
+      "commands": ["workbench.action.files.saveAll"]
+    },
+    {
+      "before": ["<leader>", "z"],
+      "commands": ["workbench.action.toggleZenMode"]
+    },
+    {
+      "before": ["<leader>", "x"],
+      "commands": ["workbench.action.closeActiveEditor"]
+    },
+    {
+      "before": ["<Leader>", "j"],
+      "after": ["J"]
+    },
+    {
+      "before": ["<C-h>"],
+      "after": ["<C-w>", "h"]
+    },
+    {
+      "before": ["<C-j>"],
+      "after": ["<C-w>", "j"] 
+    },
+    {
+      "before": ["<C-k>"],
+      "after": ["<C-w>", "k"]
+    },
+    {
+      "before": ["<C-l>"],
+      "after": ["<C-w>", "l"]
+    },
+    {
+      "before": ["<Leader>", "t", "t"],
+      "commands": [":tabnew"]
+    },
+    {
+      "before": ["<Leader>", "t", "n"],
+      "commands": [":tabnext"]
+    },
+    {
+      "before": ["<Leader>", "t", "p"],
+      "commands": [":tabprev"]
+    },
+    {
+      "before": ["<Leader>", "t", "o"],
+      "commands": [":tabo"]
+    },
+    {
+      "before": ["<Leader>", "t"],
+      "commands": ["workbench.action.showAllSymbols"]   
+    }
+  ],
+
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": [">"],
+      "commands": ["editor.action.indentLines"]
+    },
+    {
+      "before": ["<"],
+      "commands": ["editor.action.outdentLines"]
+    },
+    {
+      "before": ["p"],
+      "after": ["p", "g", "v", "y"]
+    }
+  ],
+  "vim.statusBarColorControl": true,
+  "vim.statusBarColors.normal": ["#8FBCBB", "#000"],
+  "vim.statusBarColors.insert": ["#BF616A", "#000"],
+  "vim.statusBarColors.visual": ["#B48EAD", "#000"],
+  "vim.statusBarColors.visualline": ["#B48EAD", "#000"],
+  "vim.statusBarColors.visualblock": ["#A3BE8C", "#000"],
+  "vim.statusBarColors.replace": "#D08770",
+  "vim.statusBarColors.commandlineinprogress": "#007ACC",
+  "vim.statusBarColors.searchinprogressmode": "#007ACC",
+  "vim.statusBarColors.easymotionmode": "#007ACC",
+  "vim.statusBarColors.easymotioninputmode": "#007ACC",
+  "vim.statusBarColors.surroundinputmode": "#007ACC",
+  "vim.gdefault": true
+}
