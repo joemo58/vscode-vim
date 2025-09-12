@@ -43,8 +43,16 @@
       "commands": ["workbench.action.files.save"]
     },
     {
-      "before": ["<leader>", "b"],
+      "before": ["<leader>", "o"],
       "commands": ["workbench.action.files.openFile"]
+    },
+    {
+      "before": ["<leader>", "g"],
+      "commands": ["editor.action.revealDefinition"]
+    },
+    {
+      "before": ["<leader>", "b"],
+      "commands": ["workbench.action.navigateBack"]
     },
     {
       "before": ["<leader>", "q"],
