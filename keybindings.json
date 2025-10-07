@@ -19,5 +19,15 @@
         "key": "alt+]",
         "command": "-editor.action.inlineSuggest.showNext",
         "when": "inlineSuggestionVisible && !editorReadonly"
+    },
+    {
+        "key": "j",
+        "command": "selectNextSuggestion",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+    },
+    {
+        "key": "k",
+        "command": "selectPrevSuggestion",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
     }
 ]
