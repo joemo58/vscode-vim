@@ -1,0 +1,51 @@
+[user]
+    name = Joe McGirr
+    email = joemcgirr89@gmail.com
+
+[alias]
+    # --- Core workflow ---
+    co = checkout
+    cob = checkout -b
+    br = branch
+    st = status
+    ci = commit
+    cm = commit -m
+    ca = commit --amend
+    df = diff
+    lg = log --oneline --graph --decorate --all
+
+    # --- Staging shortcuts ---
+    aa = add --all
+    a = add
+    unstage = reset HEAD --
+
+    # --- Merging / Rebasing ---
+    rb = rebase
+    rbi = rebase -i
+    rc = rebase --continue
+    ra = rebase --abort
+    mg = merge
+
+    # --- Tagging ---
+    t = tag
+    ta = tag -a
+    tp = tag -d
+
+    # --- Remote operations ---
+    pl = pull
+    ps = push
+    psf = push --force-with-lease
+    fetchall = fetch --all --prune
+
+    # --- Branch management ---
+    bd = branch -d
+    bD = branch -D
+    sw = switch
+    swc = switch -c
+
+    # --- Misc ---
+    cl = clone
+    rv = remote -v
+
+    # Safer hard reset
+    rh = reset --hard
