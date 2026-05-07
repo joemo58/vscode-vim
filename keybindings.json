@@ -29,5 +29,10 @@
         "key": "k",
         "command": "selectPrevSuggestion",
         "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
-    }
+    },
+    {
+        "key": "capslock",
+        "command": "extension.vim_escape",
+        "when": "editorTextFocus && vim.active && !inDebugRepl"
+    },
 ]
