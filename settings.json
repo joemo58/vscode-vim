@@ -1,7 +1,6 @@
 {
   "update.mode": "none",
   "telemetry.telemetryLevel": "off",
-  "files.autoSave": "afterDelay",
   "editor.minimap.enabled": false,
   "vim.smartRelativeLine": true,
   "workbench.colorCustomizations": {
@@ -27,7 +26,8 @@
   "vim.leader": "space",
   "vim.handleKeys": {
     "<C-a>": true,
-    "<C-f>": false
+    "<C-f>": false,
+    "<C-p>": false 
   },
   "vim.normalModeKeyBindingsNonRecursive": [
     {
@@ -175,5 +175,12 @@
     "plaintext": false,
     "markdown": false,
     "scminput": false
-  }
+  },
+"workbench.editor.empty.hint": "hidden",
+"terminal.integrated.mouseWheelScrollSensitivity": 3,
+"claudeCode.preferredLocation": "panel",
+"python.analysis.typeCheckingMode": "standard",
+"files.autoSaveDelay": 30,
+"explorer.confirmDragAndDrop": false,
+"files.autoSave": "afterDelay"
 }
